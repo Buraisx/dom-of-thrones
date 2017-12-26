@@ -103,4 +103,31 @@ function scene2() {
     sword.style.left = '51%'
   })
 
+  //joff Head framtes
+  frame(function() {
+    joff.style.top = '0'
+    joff.style.left = '33%'
+    joff.style.transform = 'rotateZ(220deg)'
+
+  })
+  frame(function() {
+    joff.style.top = '27%'
+    joff.style.left = '90%'
+    joff.style.transform = 'rotateZ(120deg)'
+
+  })
+  // Stage direction 2
+  // midd;e frame
+  frame(function() {
+    joff.style.top = '47%'
+    joff.style.left = '190%'
+    joff.style.transform = 'rotateZ(260deg)'
+
+  })
+  frame(function() {
+    joff.style.top = '68%'
+    joff.style.left = '250%'
+    joff.style.transform = 'rotateZ(100deg)'
+
+  })
 }
